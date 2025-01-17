@@ -1,4 +1,4 @@
-# Nutrition Optimization App
+# Nutrition Optimization App for Assignment 1
 
 ## Overview
 
