@@ -1,0 +1,52 @@
+{
+    "cheese": {
+        "sodium": 170,
+        "energy": 100,
+        "protein": 7000,
+        "vitamin_d": 0.1,
+        "calcium": 200,
+        "iron": 0.1,
+        "potassium": 30,
+        "cost": 0.56
+    },
+    "salad": {
+        "sodium": 70,
+        "energy": 70,
+        "protein": 4000,
+        "vitamin_d": 0,
+        "calcium": 130,
+        "iron": 0.9,
+        "potassium": 260,
+        "cost": 1.33
+    },
+    "salmon": {
+        "sodium": 540,
+        "energy": 0,
+        "protein": 12000,
+        "vitamin_d": 18.4,
+        "calcium": 0,
+        "iron": 0.1,
+        "potassium": 190,
+        "cost": 3.5
+    },
+    "oatmeal": {
+        "sodium": 0,
+        "energy": 170,
+        "protein": 6000,
+        "vitamin_d": 0,
+        "calcium": 20,
+        "iron": 1.7,
+        "potassium": 170,
+        "cost": 0.2
+    },
+    "chicken": {
+        "sodium": 196.0,
+        "energy": 122.0,
+        "protein": 23000.0,
+        "vitamin_d": 0.1,
+        "calcium": 6.0,
+        "iron": 0.4,
+        "potassium": 376.0,
+        "cost": 2.25
+    }
+}
