@@ -1,17 +1,19 @@
-Nutrition Optimization Application
+# Nutrition Optimization App
 
-Overview
+## Overview
 
-The Nutrition Optimization Application is a Python-based graphical user interface (GUI) tool that allows users to input and manage food data, optimize nutrient intake, and view results in a structured format. The application enables users to:
+This is a simple Python GUI app for tracking food nutrition and optimizing meals based on nutrient constraints. It uses tkinter for the interface and PuLP for linear optimization.
 
-Add new food items with nutritional values.
+## How to Run It
 
-Save food data to a JSON file.
+### Step 1: Install Python dependencies
 
-Load and refresh food data from a JSON file.
+Shocking, but you'll need Python > 3.6, plus install:
 
-Delete and edit food entries.
+_pip install pulp_
 
-Optimize nutrient intake based on predefined constraints.
+Step 2: Run the App
 
-View a table of foods and a summary of nutritional constraints.
+In the directory where the script is saved run:
+
+_python gui.py_
