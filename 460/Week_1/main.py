@@ -39,3 +39,10 @@ for nutrient, (min_req, max_req) in requirements.items():
         problem += total_nutrient <= max_req, f"Max_{nutrient}"
 
 problem.solve()
+
+print("Status:", pulp.LpStatus[problem.status])
+for food in foods:
+    print(f"{food}: {servings[food].varValue:.2f} servings")
+
+total_cost = sum(servings[food].varValue * cost_per_serving[food] for food in foods)
+print(f"Total cost: ${total_cost:.2f}")
