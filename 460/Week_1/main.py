@@ -1,6 +1,6 @@
 import pulp
-
-problem = pulp.LpProblem("NutritionOptimization", pulp.LpMinimize)
+##==================  https://coin-or.github.io/pulp/CaseStudies/a_blending_problem.html
+problem = pulp.LpProblem("The Diet Problem", pulp.LpMinimize)
 
 foods = ["cheese", "salad", "chicken", "salmon", "oatmeal"]
 servings = {food: pulp.LpVariable(food, lowBound=0) for food in foods}
@@ -17,7 +17,7 @@ requirements = {
     "sodium":    (0, 35000),    
     "energy":    (14000, None), 
     "protein":   (350000, None),   
-    "vitamin_d": (140, None),   
+    "vit_d": (140, None),   
     "calcium":   (9100, None), 
     "iron":      (126, None),   
     "potassium": (32900, None)  
