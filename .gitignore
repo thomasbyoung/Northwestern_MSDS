@@ -4,3 +4,9 @@
 *.xlsx
 *.ppt
 *.pptx
+
+# Ignore environment variables file
+.env
+
+# Ignore Python virtual environment
+venv/
